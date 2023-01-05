@@ -303,6 +303,9 @@ h2{
     display: block;
     margin-bottom: 15px;
 }
+.footer_link:hover, .footer_link:active, .footer_link:focus{
+    opacity: 0.75;
+}
 .social{
     display: block;
     margin-left: 108px;
