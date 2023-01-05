@@ -1,0 +1,333 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'TT Norms';
+    font-style: normal;
+    color: #3C7BFF;
+}
+.wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+h2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 30px;
+}
+/*Header styles*/
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 120px;
+    width: 100%;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E5E5E5;
+}
+.header_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+.header_list{
+    display: flex;
+    flex-wrap: wrap; 
+}
+.header_item{
+    margin-right: 30px;
+}
+.header_item:last-child{
+    margin-right: 0;
+}
+.header_link{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1D1D1B;
+    text-decoration: none;
+}
+.header_link:hover, .header_link:focus, .header_link:active{
+    color: #3C7BFF;
+    font-weight: 700;
+}
+.want_to_help{
+    width: 173px;
+    height: 52px;
+    background: #3C7BFF;
+    border-radius: 10px;
+    border: 1px solid #3C7BFF;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.want_to_help:hover, .want_to_help:focus,.want_to_help:active{
+    background: #225dda;
+}
+.lang{
+    box-sizing: border-box;
+    width: 80px;
+    height: 52px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #3C7BFF;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #3C7BFF;
+}
+
+/*Volonter styles*/
+.volonter{
+    height: 545px;
+    background: url(/css/stop.jpg) no-repeat center;
+    background-size: cover;
+    border-bottom: 1px solid #E5E5E5;
+    border-radius: 10px 10px;
+    padding-top: 547px;
+}
+.volonter_title{
+    max-width: 491px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+.volonter_text{
+    max-width: 1097px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 40px;
+}
+
+
+/*Help styles*/
+.help{
+    padding-top: 56px;
+}
+.button_help{
+    width: 1280px;
+    height: 156px;
+    border: 1px solid #3C7BFF;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 43px;
+    margin-bottom: 30px;
+}
+.give_help:last-child{
+    margin-right: 0;
+}
+.give_help{
+    width: 449px;
+    height: 69px;
+    background: #3C7BFF;
+    border:0 ;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-right: 50px;
+}
+.give_help:last-child{
+    margin-right: 0;
+}
+.give_help:hover, .give_help:focus,.give_help:active{
+    background: #225dda;
+}
+
+
+/*Programs styles*/
+.program_pic{
+    display: flex;
+}
+.program_military{
+    background: url(/css/military.jpg) no-repeat;
+    background-size: cover;
+    width: 630px;
+    height: 600px;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 19px;
+    margin-bottom: 30px;
+}
+.program_map{
+    background: url(/css/map.jpg) no-repeat;
+    background-size: cover;
+    width: 630px;
+    height: 600px;
+    display: flex;
+    align-items: flex-end;
+}
+.program_txt{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin-left: 39px;
+    margin-bottom: 40px;
+}
+
+/*Documents styles*/
+.document_pic{
+    width: 1280px;
+    height: 358px;
+    border: 1px solid #3C7BFF;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.docs{
+    width: 201px;
+    height: 270px;
+    margin-right: 20px;
+    margin-top: 39px;
+}
+.docs:last-child{
+    margin-right: 0;
+}
+.docs:first-child{
+    margin-left: 40px;
+}
+
+
+/*Report styles*/
+.report_info{
+    width: 1280px;
+    height: 156px;
+    border: 1px solid #3C7BFF;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.telegram_btn{
+    width: 301px;
+    height: 69px;
+    background: #3C7BFF;
+    border-radius: 10px;
+    border: 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-left: 53px;
+    margin-top: 44px;
+}
+.report_txt{
+    width: 753px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #3C7BFF;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+
+/*Footer styles*/
+.footer{
+    background-color: #3C7BFF;
+    height: 323px;
+    display: flex;
+}
+.footer_menu{
+    margin-top: 30px;
+    margin-left: 120px;
+}
+.footer_link{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 15px;
+}
+.social{
+    display: block;
+    margin-left: 108px;
+}
+.social_txt{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    display: block;
+    margin-bottom: 15px;
+}
+.social_logo{
+    margin-right: 32px;
+    display: inline;
+}
+.social_logo:last-child{
+    margin-right: 0;
+}
+.footer_txt{
+    margin-top: 252px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 556px;
+}
