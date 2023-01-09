@@ -1,0 +1,52 @@
+.contacts{
+    margin-top: 150px;
+}
+.contacts_title{
+    margin-bottom: 52px;
+}
+.contacts_form{
+    display: block;
+    width: 382px;
+}
+input, button{
+    width: 100%;
+    height: 59px;
+    margin-bottom: 20px;
+}
+.message_form{
+    height: 116px;
+}
+input{
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.contacts_button_submit{
+    background: #3C7BFF;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.contacts_button_submit:hover, .contacts_button_submit:focus,.contacts_button_submit:active{
+    background: #225dda;
+}
+.contacts_button_reset{
+    border: 1px solid #3C7BFF;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #3C7BFF;
+    margin-bottom: 150px;
+}
+input::placeholder{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #C4C4C4;
+    text-align: left;
+}

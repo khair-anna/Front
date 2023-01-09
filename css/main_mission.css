@@ -1,0 +1,43 @@
+.our_mission{
+    margin-top: 150px;
+}
+.our_mission_title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #1D1D1B;
+}
+.our_mission_text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    width: 1200px;
+    margin-bottom: 50px;
+}
+.selflessness, .voluntariness, .honesty{
+    display: flex;
+    align-items: baseline;
+}
+.selflessness_title{
+    margin-left: 42px;
+}
+.voluntariness_title{
+    margin-left: 58px;
+}
+.honesty_title{
+    margin-left: 40px;
+}
+.selflessness_text, .voluntariness_text, .honesty_text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    width: 1250px;
+}
+.selflessness_text, .voluntariness_text{
+    margin-bottom: 50px;
+}
+.honesty_text{
+    margin-bottom: 430px;
+}
