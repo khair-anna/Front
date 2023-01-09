@@ -1,0 +1,17 @@
+.help_military{
+    margin-top: 150px;
+}
+.help_military_text, .help_people_text{
+    width: 1251px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1D1D1B;
+    margin-bottom: 30px;
+}
+.help_military_pic{
+    margin-bottom: 30px;
+}
+.help_people_pic{
+    margin-bottom: 350px;
+}
