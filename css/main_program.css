@@ -2,7 +2,7 @@
     margin-top: 150px;
 }
 .help_military_text, .help_people_text{
-    width: 1251px;
+    max-width: 1251px;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -11,27 +11,73 @@
 }
 .help_military_pic{
     margin-bottom: 30px;
+    height: 400px;
 }
 .help_people_pic{
     margin-bottom: 350px;
+    height: 400px;
 }
 
 /* ------ Media Queries ------ */
 
 /* X-Large devices (large desktops, less than 1400px) */
 @media (max-width: 1400px) {
-
+    .help_military_pic, .help_people_pic {
+        height: 355px;
+    }
 }
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1200px) {
+    .help_military_pic, .help_people_pic {
+        height: 295px;
+    }
+    .help_people_pic {
+        margin-bottom: 250px;
+    }
 }
 
 /* Medium devices (tablets, less than 992px) */
-@media (max-width: 992px) { ... }
+@media (max-width: 992px) {
+    .help_military_pic, .help_people_pic {
+        height: 230px;
+    }
+    .help_people_pic {
+        margin-bottom: 170px;
+    }
+}
 
 /* Small devices (landscape phones, less than 768px) */
-@media (max-width: 768px) { ... }
+@media (max-width: 768px) {
+    .help_military_pic, .help_people_pic {
+        height: 165px;
+    }
+    .help_people_pic {
+        margin-bottom: 90px;
+    }
+    .help_military_text, .help_people_text {
+        font-size: 17px;
+    }
+    .help_military {
+        margin-top: 130px;
+    }
+}
 
 /* X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 576px) { ... }
+@media (max-width: 576px) {
+    .help_military_text, .help_people_text {
+        font-size: 10px;
+    }
+    .help_military_pic, .help_people_pic {
+        height: 105px;
+    }
+    .help_military {
+        margin-top: 105px;
+    }
+    .help_military_pic {
+        margin-bottom: 15px;
+    }
+    .help_people_pic {
+        margin-bottom: 55px;
+    }
+}

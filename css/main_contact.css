@@ -2,6 +2,7 @@
     margin-top: 150px;
 }
 .contacts_title{
+    font-size: 32px;
     margin-bottom: 52px;
 }
 .contacts_form{
@@ -54,19 +55,23 @@ input::placeholder{
 /* ------ Media Queries ------ */
 
 /* X-Large devices (large desktops, less than 1400px) */
-@media (max-width: 1400px) {
-
-}
+@media (max-width: 1400px) { }
 
 /* Large devices (desktops, less than 1200px) */
-@media (max-width: 1200px) {
-}
+@media (max-width: 1200px) { }
 
 /* Medium devices (tablets, less than 992px) */
-@media (max-width: 992px) { ... }
+@media (max-width: 992px) { }
 
 /* Small devices (landscape phones, less than 768px) */
-@media (max-width: 768px) { ... }
+@media (max-width: 768px) { }
 
 /* X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 576px) { ... }
+@media (max-width: 576px) {
+    input, button {
+        width: 90%;
+    }
+    .contacts {
+        margin-top: 120px;
+    }
+}

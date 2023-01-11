@@ -2,9 +2,6 @@
     margin-top: 150px;
 }
 .about_us_title{
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
     color: #1D1D1B;
 }
 .about_us_text{
@@ -12,29 +9,63 @@
     font-size: 20px;
     line-height: 24px;
     color: #1D1D1B;
-    width: 1268px;
+    max-width: 1268px;
 }
 .about_us_pic{
     margin-top: 20px;
     margin-bottom: 450px;
+    height: 400px;
 }
 
 /* ------ Media Queries ------ */
 
 /* X-Large devices (large desktops, less than 1400px) */
 @media (max-width: 1400px) {
-
+    .about_us_pic {
+        height: 363px;
+    }
 }
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1200px) {
+    .about_us_pic {
+        height: 300px;
+        margin-bottom: 350px;
+    }
 }
 
 /* Medium devices (tablets, less than 992px) */
-@media (max-width: 992px) { ... }
+@media (max-width: 992px) {
+    .about_us_text {
+        font-size: 18px;
+    }
+    .about_us_pic {
+        height: 230px;
+        margin-bottom: 300px;
+    }
+}
 
 /* Small devices (landscape phones, less than 768px) */
-@media (max-width: 768px) { ... }
+@media (max-width: 768px) {
+    .about_us_text {
+        font-size: 15px;
+    }
+    .about_us_pic {
+        height: 170px;
+        margin-bottom: 220px;
+    }
+}
 
 /* X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 576px) { ... }
+@media (max-width: 576px) {
+    .about_us_text {
+        font-size: 10px;
+    }
+    .about_us_pic {
+        height: 105px;
+        margin-bottom: 140px;
+    }
+    .about_us {
+        margin-top: 110px;
+    }
+}

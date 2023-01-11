@@ -96,6 +96,7 @@
 
 /*Documents styles*/
 .document_pic{
+    align-items: center;
     max-width: 1280px;
     height: 358px;
     border: 1px solid #3C7BFF;

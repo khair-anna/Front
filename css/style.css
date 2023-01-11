@@ -241,6 +241,7 @@ h2{
 @media (max-width: 768px) {
     h2{
         font-size: 23px;
+        margin-bottom: 15px;
     }
     .footer_link {
         margin-bottom: 5px;
