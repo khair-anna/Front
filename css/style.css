@@ -28,9 +28,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
 ol, ul {
 	list-style: none;
 }
@@ -147,6 +144,8 @@ h2{
 .footer{
     background-color: #3C7BFF;
     height: 323px;
+}
+.footer_navigation{
     display: flex;
 }
 .footer_menu{
@@ -188,13 +187,21 @@ h2{
 .social_logo:last-child{
     margin-right: 0;
 }
+.txt_nav{
+    display: flex;
+    justify-content: space-between;
+}
 .footer_txt{
-    margin-top: 252px;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     color: #FFFFFF;
-    margin-left: 556px;
+}
+.footer_txt_first{
+    margin-left: 120px;
+}
+.footer_txt_last{
+    margin-right: 20px;
 }
 
 
@@ -209,16 +216,11 @@ h2{
     .burger_pic{
         display: block;
     }
-    .footer_txt {
-        margin-left: 250px;
-    }
 }
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1200px) {
-    .footer_txt {
-        margin-left: 40px;
-    }
+
 }
 
 /* Medium devices (tablets, less than 992px) */
@@ -229,11 +231,11 @@ h2{
     .footer_link, .social_txt, .footer_txt{
         font-size: 15px;
     }
-    .footer_txt {
-        margin-left: 60px;
-    }
-    .footer_menu {
+    .footer_menu, .footer_txt_first {
         margin-left: 40px;
+    }
+    .footer {
+        height: 300px;
     }
 }
 
@@ -245,9 +247,6 @@ h2{
     }
     .footer_link {
         margin-bottom: 5px;
-    }  
-    .footer_txt {
-        margin-left: -444px;
     }  
 }
 
@@ -270,6 +269,9 @@ h2{
         margin-top: 15px;
         margin-left: 20px;
     }
+    .footer_txt_first{
+        margin-left: 20px;
+    }
     .social {
         margin-left: 80px;
     }
@@ -281,13 +283,9 @@ h2{
     }
     .footer_item:last-child {
         margin-top: 10px;
-    }
-    .footer_txt {
-        margin-top: 175px;
-        margin-left: -337px;
-    }  
+    } 
     .footer {
-        height: 230px;
+        height: 190px;
     }
     .social_logo {
         margin-right: 10px;
