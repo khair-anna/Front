@@ -66,7 +66,6 @@ body{
 h2{
     font-weight: 700;
     font-size: 32px;
-    line-height: 38px;
     margin-bottom: 30px;
 }
 /*Header styles*/
@@ -99,7 +98,6 @@ h2{
 .header_link{
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
     color: #1D1D1B;
     text-decoration: none;
 }
@@ -115,7 +113,6 @@ h2{
     border: 1px solid #3C7BFF;
     font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
     color: #FFFFFF;
 }
 .want_to_help:hover, .want_to_help:focus,.want_to_help:active{
@@ -131,7 +128,6 @@ h2{
     margin-left: 20px;
     font-weight: 700;
     font-size: 20px;
-    line-height: 24px;
     color: #3C7BFF;
 }
 .burger_pic{
@@ -150,12 +146,10 @@ h2{
 }
 .footer_menu{
     margin-top: 30px;
-    margin-left: 120px;
 }
 .footer_link{
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
     color: #FFFFFF;
     text-decoration: none;
     display: block;
@@ -164,9 +158,6 @@ h2{
 .footer_link:hover, .footer_link:active, .footer_link:focus{
     opacity: 0.75;
 }
-.footer_item:last-child{
-    margin-top: 80px;
-}
 .social{
     display: block;
     margin-left: 108px;
@@ -174,7 +165,6 @@ h2{
 .social_txt{
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
     color: #FFFFFF;
     margin-top: 30px;
     display: block;
@@ -190,18 +180,12 @@ h2{
 .txt_nav{
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 .footer_txt{
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
     color: #FFFFFF;
-}
-.footer_txt_first{
-    margin-left: 120px;
-}
-.footer_txt_last{
-    margin-right: 20px;
 }
 
 
@@ -231,11 +215,8 @@ h2{
     .footer_link, .social_txt, .footer_txt{
         font-size: 15px;
     }
-    .footer_menu, .footer_txt_first {
-        margin-left: 40px;
-    }
     .footer {
-        height: 300px;
+        height: 270px;
     }
 }
 
@@ -247,7 +228,10 @@ h2{
     }
     .footer_link {
         margin-bottom: 5px;
-    }  
+    } 
+    .footer {
+        height: 230px;
+    } 
 }
 
 /* X-Small devices (portrait phones, less than 576px) */
@@ -267,10 +251,6 @@ h2{
     }
     .footer_menu {
         margin-top: 15px;
-        margin-left: 20px;
-    }
-    .footer_txt_first{
-        margin-left: 20px;
     }
     .social {
         margin-left: 80px;
@@ -285,7 +265,7 @@ h2{
         margin-top: 10px;
     } 
     .footer {
-        height: 190px;
+        height: 200px;
     }
     .social_logo {
         margin-right: 10px;
