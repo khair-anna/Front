@@ -5,7 +5,7 @@
     background-size: cover;
     border-bottom: 1px solid #E5E5E5;
     border-radius: 10px 10px;
-    padding-top: 375px;
+    padding-top: 355px;
     margin-top: 100px;
 }
 .volonter_title{
@@ -14,12 +14,14 @@
     font-size: 42px;
     margin-bottom: 10px;
     margin-left: 40px;
+    color: #fff;
 }
 .volonter_text{
     max-width: 1097px;
     font-weight: 700;
     font-size: 18px;
     margin-left: 40px;
+    color: #fff;
 }
 
 
@@ -29,11 +31,10 @@
 }
 .button_help{
     width: 100%;
-    height: 156px;
     border: 1px solid #3C7BFF;
     border-radius: 10px;
     text-align: center;
-    padding-top: 43px;
+    padding: 40px 0;
     margin-bottom: 30px;
 }
 .give_help:last-child{
@@ -64,7 +65,12 @@
     justify-content: space-between;
     margin-bottom: 30px;
 }
-
+.program_link{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
 .military, .map {
     position: relative;
     width: 48%; 
@@ -87,7 +93,6 @@
     object-position: center;
     z-index: -1;
 }
-
 .program_military{
     background: url(../img/military.jpg) no-repeat;
     background-size: cover;
@@ -104,7 +109,7 @@
 }
 .program_txt{
     font-weight: 700;
-    font-size: 42px;
+    font-size: 30px;
     color: #FFFFFF;
     margin-left: 20px;
     margin-bottom: 25px;
@@ -115,12 +120,11 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 358px;
     border: 1px solid #3C7BFF;
     border-radius: 10px;
     display: flex;
     margin-bottom: 30px;
-    padding: 10px;
+    padding: 30px 10px;
 }
 .docs{
     width: 15%;
@@ -130,13 +134,12 @@
 /*Report styles*/
 .report_info{
     width: 100%;
-    height: 156px;
     border: 1px solid #3C7BFF;
     border-radius: 10px;
     margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 40px;
 }
 .telegram_button{
     display: flex;
@@ -148,9 +151,16 @@
     background: #3C7BFF;
     border-radius: 10px;
     border: 0;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 32px;
     color: #FFFFFF;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    padding: 0px 65px;
+}
+.telegram_btn:hover, .telegram_btn:focus,.telegram_btn:active{
+    background: #225dda;
 }
 .report_text{
     display: flex;
@@ -159,7 +169,7 @@
 }
 .report_txt{
     font-weight: 700;
-    font-size: 32px;
+    font-size: 25px;
     color: #3C7BFF;
 }
 
@@ -186,9 +196,6 @@
         margin-left: 29px;
         margin-bottom: 18px;
     }
-    .document_pic {
-        height: 300px;
-    }
     .report_txt {
         font-size: 25px;
     }
@@ -207,11 +214,9 @@
         font-size: 16px;
     }
     .button_help{
-        height: 220px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 32px;
     }
     .give_help {
         margin-bottom: 10px;
@@ -222,8 +227,8 @@
         margin-left: 20px;
         margin-bottom: 10px;
     }
-    .document_pic {
-        height: 240px;
+    .telegram_btn{
+        margin-bottom: 10px;
     }
     .telegram_pic{
         width: 25px;
@@ -231,7 +236,7 @@
     .report_info{
         flex-direction: column;
         align-items: center;
-        padding: 10px;
+        padding: 20px;
     }
     .report_txt {
         text-align: center;
@@ -259,12 +264,6 @@
         font-size: 17px;
         margin-left: 15px;
         margin-bottom: 5px;
-    }
-    .document_pic {
-        height: 168px;
-    }
-    .telegram_btn{
-        font-size: 23px;
     }
     .report_txt {
         font-size: 16px;
@@ -294,8 +293,7 @@
     }
     .button_help {
         margin-bottom: 15px;
-        height: 150px;
-        padding-top: 13px;
+        padding: 15px 0;
     }
     .program_pic {
         margin-bottom: 15px;
@@ -306,16 +304,12 @@
         margin-bottom: 10px;
     }
     .document_pic {
-        height: 110px;
         margin-bottom: 15px;
-    }
-    .report_info{
-        height: 140px;
     }
     .telegram_btn{
         width: 270px;
         height: 55px;
-        font-size: 20px;
+        font-size: 25px;
     }
     .report_txt{
         font-size: 13px;
